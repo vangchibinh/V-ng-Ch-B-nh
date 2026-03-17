@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Thiết kế web HTML5</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        .container {
+            width: 1000px;
+            margin: auto;
+            border: 2px solid #ccc;
+        }
+        header {
+            background: #00FF00;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background: #ccc;
+        }
+
+            nav ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+            }
+
+                nav ul li {
+                    padding: 15px 25px;
+                }
+
+                    nav ul li a {
+                        text-decoration: none;
+                        font-weight: bold;
+                    }
+        .main {
+            display: flex;
+        }
+        aside {
+            width: 30%;
+            background: #FFFF00;
+            padding: 20px;
+        }
+        section {
+            width: 70%;
+            padding: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+        }
+
+            article img {
+                width: 100%;
+            }
+        footer {
+            background: #FFA500;
+            text-align: center;
+            padding: 20px;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>SHOP MUA BÁN ACC LIÊN QUÂN + FREE FIRE UY TÍN</h1>
+            <img src="https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/166055/Originals/game12.jpg" width="90%" height="30%">
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Hướng dẫn mua</a></li>
+                <li><a href="#">Acc nổi bật</a></li>
+                <li><a href="#">Acc giá rẻ</li>
+                <li><a href="#">Nạp tiền</a> </li>  
+                <li><a href="#">Lịch sử mua hàng</a> </li> 
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+
+        <div class="main">
+
+            <aside>
+
+                <h3>Đăng nhập</h3>
+
+                <form>
+
+                    <label>Tên đăng nhập</label><br>
+                    <input type="text" required><br><br>
+
+                    <label>Mật khẩu</label><br>
+                    <input type="password" required><br><br>
+
+                    <label>Email</label><br>
+                    <input type="email" required><br><br>
+
+                    <button type="submit">Đăng nhập</button>
+
+                </form>
+
+            </aside>
+
+            <section>
+
+                <h2>Chào mừng đến với Shop mua bán Acc Game uy tín:</h2>
+
+                <article>
+                
+                    <img src="../IMAGE/14.png">
+                    <p>Nơi cung cấp hàng trăm tài khoản game chất lượng và giá cực tốt. Tại đây bạn có thể dễ dàng tìm thấy những acc mạnh, nhiều trang phục đẹp và rank cao. Shop luôn đảm bảo an toàn- nhanh chóng- uy tín.</p>
+                </article>
+
+                <article>
+                    
+                    <h2>Danh sách acc game</h2>
+
+                        <div class="game-list">
+
+                         <div class="acc">
+                        <img src="https://highmarksecurity.com/wp-content/uploads/2024/04/Anh-Acc-Lien-Quan.jpg" alt="Acc Liên Quân" width="200">
+                        <img src="https://cellphones.com.vn/sforum/wp-content/uploads/2023/11/lien-quan-nakroth-co-skin-chuyen-giao-vgvd-moi-2.jpg">
+                        <h3>Acc Liên Quân Rank Cao</h3>
+                        <p>Giá: 500.000 VNĐ</p>
+                     </div>
+
+                        <div class="acc">
+                     <img src="https://cdn-media.sforum.vn/storage/app/media/ctvseocps123/acc-ff-giau-nhat-10.jpg" alt="Acc Free Fire" width="200">
+                     <img src="https://i.ytimg.com/vi/6xQpXbTZa4E/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgQihFMA8=&rs=AOn4CLB7YgHC8JyfHV7nzTpEmW1kJwboqQ">
+                     <h3>Acc Free Fire VIP</h3>
+                      <p>Giá: 1.500.000 VNĐ</p>
+                   </div>
+
+                <div class="acc">
+              <img src="https://photo.znews.vn/w660/Uploaded/lce_uxlcq/2019_11_25/iz3j5uf718041_1.jpg" alt="Acc PUBG Mobile" width="200">
+              <img src="https://chuky.vn/wp-content/uploads/2025/07/Anh-acc-Pubg-VIP.jpg">
+              <h3>Acc PUBG Mobile VIP</h3>
+          <p>Giá: 700.000 VNĐ</p>
+    </div>
+
+</div>
+                </article>
+
+            </section>
+
+        </div>
+
+        <footer>
+            Sinh viên: Vàng Chí Bình – Lớp: TT1D24.
+        </footer>
+
+    </div>
+
+</body>
+</html>
