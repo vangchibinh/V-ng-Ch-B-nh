@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+
+body{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f2f3d4;
+    font-family: Arial;
+}
+
+*{
+    box-sizing: border-box;
+}
+.top{
+    width: 100%;
+    height: 100px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyAkPNbwgi2_U6zmEb-WXSbNBuvDyOHlIx8A&s);
+    float: left;
+    text-align: center;
+    padding-top: 15px;
+    background-size: cover;
+}
+
+h3,h2{
+    color: white;
+    margin: 5px;
+}
+.left{
+    width: 20%;
+    min-height: 400px;
+    background-color:yellow;
+    float: left;
+}
+
+.left ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left li{
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.left li:hover{
+    background: #ccc;
+}
+.center{
+    width: 60%;
+    min-height: 400px;
+    background-color: white;
+    float: left;
+    padding: 10px;
+}
+.form-box{
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.form-box h3{
+    background: #0099FF;;
+    color: white;
+    margin: 0;
+    padding: 8px;
+}
+.form-row{
+    display: flex;
+    padding: 8px;
+}
+.form-row label{
+    width: 120px;
+}
+.form-row input{
+    flex: 1;
+    padding: 5px;
+}
+.btn{
+    padding: 10px;
+}
+.btn button{
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+.info{
+    border: 1px solid #ccc;
+}
+.info h3{
+    background: #0099FF;
+    color: white;
+    margin: 0;
+    padding: 8px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background: #ddd;
+    text-align: center;
+}
+.right{
+    width: 20%;
+    min-height: 400px;
+    background-color: #e6e6e6;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+.right img{
+    width: 80%;
+    margin: 10px;
+}
+
+/* footer */
+.bottom{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+</style>
+</head>
+<body>
+<div class="top">
+    <h3>KHOA CÔNG NGHỆ THÔNG TIN - TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP VIỆT TRÌ</h3>
+    <h2>CHƯƠNG TRÌNH QUẢN LÝ SINH VIÊN</h2>
+</div>
+
+ <div class="left">
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Quản lý sinh viên</a></li>
+                <li><a href="#">Quản lý điểm</a></li>
+                <li><a href="#">Quản lý lớp học</a></li>
+                <li><a href="#">Quản lý khoa</a></li>
+                <li><a href="#">Quản lý người dùng</a></li>
+                <li><a href="#">Chức năng khác</a></li>
+            </ul>
+        </div>
+
+<div class="center">
+
+    <div class="form-box">
+        <h3 align="center">THÊM SINH VIÊN</h3>
+
+        <div class="form-row" align="right">
+            <label>Mã sinh viên</label>
+            <input type="text">
+        </div>
+
+        <div class="form-row" align="right">
+            <label>Họ tên</label>
+            <input type="text">
+        </div>
+
+        <div class="form-row" align="right">
+            <label>Ngày sinh</label>
+            <input type="date">
+        </div>
+
+        <div class="form-row" align="right">
+            <label>Hình</label>
+            <input type="text">
+            <input type="button" value="Browse...">
+        </div>
+
+        <div class="btn" align="center">
+             <input type="submit" value="Add">
+             <input type="reset" value="Update">
+             <input type="submit" value="Save">
+        </div>
+    </div>
+
+    <div class="info">
+        <h3 align="center">THÔNG TIN SINH VIÊN</h3>
+
+        <table border="1" width="100%" cellspacing="0">
+            <tr style="background: #ddd;">
+                <th>STT</th>
+                <th>MASV</th>
+                <th>Họ tên</th>
+                <th>Ngày sinh</th>
+                <th>Hình</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>TH09</td>
+                <td>Nguyễn Lan</td>
+                <td>1/1/1986</td>
+                <td>h1.jpg</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>TH89</td>
+                <td>Thanh Nhàn</td>
+                <td>1/8/1985</td>
+                <td>h2.jpg</td>
+            </tr>
+
+        </table>
+    </div>
+
+</div>
+
+<div class="right">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp1wOEZNZ-AsJyN4q3l_MZ4IM9h5d5TqiUZw&s">
+
+    <p>Lớp chuyên đề về HTML và CSS; trang bị kiến thức cơ bản về xây dựng cấu trúc và định dạng trang web bằng HTML và CSS</p>
+    <p align="left"><a href="#">Thông báo về lịch thi học kỳ</a><br><br>
+    <a href="#">Nhịp sống trẻ</a>
+</div>
+
+<div class="bottom">
+    Khoa Công nghệ Thông tin - Số 9 Tiên Sơn, Thanh Miếu, Phú Thọ <br>
+    Email: khcntt@vui.edu.vn
+</div>
+
+</body>
+</html>
